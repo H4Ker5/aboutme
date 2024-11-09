@@ -1,0 +1,12 @@
+.certs {
+    max-width: 700px;
+    text-align: left;
+    display: block;
+    font-size: larger;
+}
+
+div h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: x-large;
+}

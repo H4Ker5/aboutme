@@ -1,0 +1,111 @@
+#copyright {
+    text-align: center;
+}
+
+#python {
+    padding-bottom: 1px;
+    color: blue;
+}
+
+#python p {
+    color: black;
+}
+
+div p {
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+a {
+    padding: 4px;
+
+}
+
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+#navigation {
+    background-color: red;
+    padding: 15px;
+    box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+#navigation a {
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 20px;
+    font-family: Georgia;
+}
+
+#navigation a:hover {
+    background-color: red;
+}
+
+.explore {
+    color: black;
+    max-height: 400px;
+    max-width: 250px;
+    position: relative;
+    margin-right: 100px;
+    left: 100px;
+    padding-bottom: 20px;
+    background-color: lightblue;;
+    transition: all 0.5s ease-in-out;
+    border-radius: 15px;
+}
+
+#explore h3 {
+    margin-bottom: 12px;
+}
+
+.explore a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: #333;
+    border: 2px solid blue;
+
+}
+
+.explore a:hover {
+    background-color: violet;
+    transform: scale(1.1);
+    transition: all 0.10s ease-in-out;
+}
+
+.explore:hover {
+    transform: scale(1.05);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    margin-top: 30px;
+}
+
+@mdeia (max-width: 768px) {
+    .current_projects {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    #navigation {
+        flex-direction: column;
+    }
+
+    #navigation a {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+

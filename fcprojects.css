@@ -1,0 +1,24 @@
+.projects {
+    text-align: left;
+    font-family: Georgia;
+}
+
+.description {
+    text-align: left;
+    left: 100px;
+}
+
+.reasons {
+    text-align: left;
+}
+
+.reason {
+    text-align: left;
+    margin-left: 40px;
+    max-width: 650px;
+}
+
+footer a {
+    text-align: center;
+    padding: 10px;
+}
